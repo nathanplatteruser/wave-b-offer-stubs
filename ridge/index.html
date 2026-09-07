@@ -13,13 +13,28 @@
     <div class="inner">
       <a class="mark" href="../index.html">RIDGE <span class="code">TAIL / RIDGE</span></a>
       <nav class="nav" aria-label="Primary">
-        <a href="#sample">Sample</a>
+        <a href="#playbook">Playbook</a>
+        <a href="#demo">Demo</a>
         <a href="#pricing">Pricing</a>
         <a href="#kill">Kill</a>
         <a href="../index.html">Hub</a>
       </nav>
     </div>
   </header>
+  <div class="playbook-bar" id="playbook">
+    <div class="inner">
+      <p class="eyebrow">Demo Playbook</p>
+      <nav class="playbook-links" aria-label="Demo Playbook">
+        <a href="#what">1 What it is</a>
+        <a href="#does">2 What it does</a>
+        <a href="#compare">3 Compare</a>
+        <a href="#pricing">4 ROI</a>
+        <a href="#demo">5 Demo</a>
+        <a href="#suite">6 Suite</a>
+        <a href="#kill">7 Rails</a>
+      </nav>
+    </div>
+  </div>
   <main>
     <section class="hero">
       <div class="wrap">
@@ -30,7 +45,7 @@
           No photo-to-line-item. No Xactimate clone. Your job OS stays SoR.
         </p>
         <div class="btn-row">
-          <a class="btn" href="#sample">View sample</a>
+          <a class="btn" href="#demo">Open breakable demo</a>
           <a class="btn btn-ghost" href="mailto:settleupcollections@polsia.app?subject=RIDGE%20%2429%20lien">Buy · $29</a>
         </div>
       </div>
@@ -40,67 +55,176 @@
         <div class="rail">
           <strong>Hard rails.</strong> Not legal advice · not a lien filing service ·
           <strong>not Xactimate / Hover / AccuLynx replacement</strong> · not estimating · not collection on the debt.
+          Magnet Stripe HOLD. Human owns send.
         </div>
       </div>
     </section>
-    <section class="section" id="sample">
+    <section class="section" id="what">
       <div class="wrap">
-        <p class="eyebrow">Toothpick sample</p>
-        <h2>Prelim notice field checklist (DEMO)</h2>
-        <div class="sample"><span class="watermark">DEMO · SYNTHETIC JOB · NOT A FILED NOTICE</span>
-JOB: 4412 Willow Ridge · Owner: A. Rivera · GC: —
-Property address: <span class="hl-ok">on face</span>
-Labor/materials description: <span class="hl-gap">“roof work” — no first-furnishing date</span>
-Contract / open account amount: <span class="hl-gap">blank</span>
-Who must be noticed (owner / lender / GC): <span class="hl-gap">lender block empty</span>
-Send method + proof log: <span class="hl-gap">not started</span></div>
-        <div class="gap-list">
-          <div class="gap-row gap">
-            <div class="gap-head"><span>First-furnishing date missing</span><span class="badge gap">Gap</span></div>
-            <p class="gap-body">Clock math needs a dated start of work/materials. Checklist only — state rules vary; counsel owns filing.</p>
-            <span class="cite">CHECK · CLOCK</span>
+        <p class="eyebrow">1 · What it is</p>
+        <h2>A $29 field checklist — not estimating software.</h2>
+        <p class="lede">Prelim notice hygiene for one job. Offer stub. SoftPro-class title SoRs and Xactimate stay out of scope as replacements.</p>
+      </div>
+    </section>
+    <section class="section" id="does">
+      <div class="wrap">
+        <p class="eyebrow">2 · What it does</p>
+        <h2>Flags missing first-furnishing date, parties, and proof log</h2>
+        <p class="lede">Paste job / notice notes. The blotter labels clock and party holes. It does not file a lien or mail a notice.</p>
+      </div>
+    </section>
+    <section class="section" id="compare">
+      <div class="wrap-wide">
+        <p class="eyebrow">3 · Honest compare · never a SoR replacement</p>
+        <h2>Beside AccuLynx / Xactimate — not instead</h2>
+        <div style="overflow-x:auto">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th scope="col">On the desk today</th>
+                <th scope="col">What it already does</th>
+                <th scope="col">Honest limit</th>
+                <th scope="col">RIDGE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="who">Xactimate / Hover</td>
+                <td>Estimating and sketch. Real money work.</td>
+                <td>Different job. RIDGE is notice fields — not photo-to-line-item.</td>
+                <td>We do not estimate. We do not clone Xactimate.</td>
+              </tr>
+              <tr>
+                <td class="who">AccuLynx / job OS</td>
+                <td>Jobs, photos, production — SoR.</td>
+                <td>SoR is not a prelim-notice hygiene blotter.</td>
+                <td>Attach checklist. Do not replace the job OS.</td>
+              </tr>
+              <tr class="ours">
+                <td class="who">RIDGE $29</td>
+                <td>Field hygiene · REFUSE on empty / thin / PDF.</td>
+                <td>Not a filing service. State rules vary. Counsel owns filing.</td>
+                <td>Suite module beside SettleUp <em>or</em> standalone toothpick.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="demo">
+      <div class="wrap">
+        <div class="break-callout no-print">
+          <p class="eyebrow" style="margin:0 0 0.4rem">5 · Breakable demo · refuse is the feature</p>
+          <h2 style="margin-bottom:0.45rem">Try to break it. The desk should hold.</h2>
+          <p class="small muted" style="margin:0 0 0.85rem">Empty, thin, and PDF should <strong>REFUSE</strong>. We do not invent a first-furnishing date or file a notice.</p>
+          <div class="btn-row" style="margin:0">
+            <button type="button" class="btn" id="btn-sample">Load synthetic sample</button>
+            <button type="button" class="btn btn-ghost" id="btn-break-empty">Break: empty</button>
+            <button type="button" class="btn btn-ghost" id="btn-break-thin">Break: thin</button>
+            <button type="button" class="btn btn-ghost" id="btn-break-pdf">Break: PDF</button>
           </div>
-          <div class="gap-row gap">
-            <div class="gap-head"><span>Lender / GC notice party blank</span><span class="badge gap">Gap</span></div>
-            <p class="gap-body">Sample leaves lender empty. Not a determination of who must be served.</p>
-            <span class="cite">CHECK · PARTIES</span>
-          </div>
-          <div class="gap-row pass">
-            <div class="gap-head"><span>Property address present</span><span class="badge pass">Pass</span></div>
-            <p class="gap-body">Site address on face of sample. Accuracy is the contractor’s job file.</p>
-            <span class="cite">CHECK · SITE</span>
+        </div>
+        <textarea class="desk-input" id="desk-input" spellcheck="false" placeholder="Paste prelim-notice / job notes…"></textarea>
+        <div class="upload-row no-print">
+          <label class="btn btn-ghost file-btn">Upload .txt<input id="desk-file" type="file" accept=".txt,.text,.md,text/plain" /></label>
+          <span class="small muted">Text only. PDF refused. We do not file or mail.</span>
+        </div>
+        <div class="btn-row no-print">
+          <button type="button" class="btn" id="btn-run">Run notice QA</button>
+          <button type="button" class="btn btn-ghost" id="btn-clear">Clear</button>
+        </div>
+        <div class="stats" id="desk-stats" style="margin-top:1rem">
+          <div class="stat"><b>0</b><span>Gaps</span></div>
+          <div class="stat"><b>0</b><span>Pass</span></div>
+          <div class="stat"><b>0</b><span>Refuse</span></div>
+        </div>
+        <div class="desk-report empty" id="desk-report" aria-live="polite"><span>Load the sample or try a break path. Empty / thin / PDF should REFUSE.</span></div>
+      </div>
+    </section>
+    <section class="section" id="suite">
+      <div class="wrap">
+        <p class="eyebrow">6 · Suite / dual-mode</p>
+        <h2>Module beside SettleUp — or standalone toothpick</h2>
+        <div class="suite-line">
+          <p>RIDGE can attach as a notice-clock module beside Pilot, or stay a $29 pack. Magnet Stripe HOLD. Human owns send.</p>
+          <div class="btn-row">
+            <a class="btn" href="https://buy.stripe.com/dRm00j0GG53F8dVfO17Vm03" target="_blank" rel="noopener noreferrer">Add to Pilot aisle · $499</a>
+            <a class="btn btn-ghost" href="mailto:settleupcollections@polsia.app?subject=RIDGE%20module%20beside%20SettleUp">Module inquiry</a>
           </div>
         </div>
       </div>
     </section>
     <section class="section" id="pricing">
       <div class="wrap">
+        <p class="eyebrow">4 · Pricing · ROI soft-framed</p>
         <div class="price-card">
           <p class="eyebrow" style="margin:0">Lien-notice toothpick</p>
           <p class="amount">$29</p>
           <p class="small muted">One job prelim-notice hygiene checklist. Mailto hold.</p>
           <div class="btn-row"><a class="btn" href="mailto:settleupcollections@polsia.app?subject=RIDGE%20%2429%20lien">Email · RIDGE $29</a></div>
         </div>
+        <div class="assumption" id="roi">
+          <p class="eyebrow" style="margin:0 0 0.4rem">Labeled assumption · not a kill claim</p>
+          <p style="margin:0">If one missed prelim clock this quarter costs more than <strong>$29</strong> in rework or counsel time (example: <strong>0.75h × $50/hr = $37.50</strong>), the pack is “paid.” Assumption — not a lien preserved, not a collection result, not a guarantee.</p>
+        </div>
       </div>
     </section>
     <section class="section" id="kill">
       <div class="wrap">
+        <p class="eyebrow">7 · Rails · kill · human owns send</p>
         <div class="kill"><strong>Kill:</strong> 0 pays after live + reach → kill toothpick. Kill immediately if buyers perceive / demand Xactimate-lite estimating.</div>
         <h2 style="margin-top:1.5rem">Non-goals</h2>
         <ul class="nongoals">
           <li>Not Xactimate, Hover, or AccuLynx replacement</li>
           <li>Not photo-to-line-item estimating</li>
           <li>Not legal advice or lien filing/service</li>
+          <li>Not auto-send — human owns every notice</li>
         </ul>
+        <div class="disclaimer-box" style="margin-top:1.25rem">
+          <h3>Not legal advice</h3>
+          <p>Educational field checklist. Counsel owns filing. No counsel-blessed PDFs invented here.</p>
+        </div>
       </div>
     </section>
-
   </main>
   <footer class="footer">
-    <div class="wrap">
-      Wave B stub · TAIL / RIDGE · <a href="../index.html">Back to hub</a>
-      · Mailto only (no Stripe on magnets) · Not legal advice
-    </div>
+    <div class="wrap">Wave B stub · TAIL / RIDGE · <a href="../index.html">Back to hub</a> · Magnet Stripe HOLD · Not legal advice</div>
   </footer>
+  <script>
+    window.WAVEB_DESK = {
+      noun: "notice",
+      minChars: 40,
+      thin: "roof job",
+      sample: [
+        "JOB: 4412 Willow Ridge · Owner: A. Rivera · GC: —",
+        "Property address: on face",
+        "Labor/materials description: roof work — no first-furnishing date",
+        "Contract / open account amount: blank",
+        "Who must be noticed (owner / lender / GC): lender block empty",
+        "Send method + proof log: not started"
+      ].join("\n"),
+      analyze: function (text) {
+        var t = text.toLowerCase();
+        var rows = [];
+        if (/first-furnishing|no first|roof work/.test(t) && !/\b20\d\d-\d\d-\d\d\b/.test(t)) {
+          rows.push({ kind: "gap", title: "First-furnishing date missing", body: "Clock math needs a dated start of work/materials. Checklist only — state rules vary; counsel owns filing.", cite: "CHECK · CLOCK" });
+        }
+        if (/lender|empty|gc: —|gc: -/.test(t)) {
+          rows.push({ kind: "gap", title: "Lender / GC notice party blank", body: "Sample leaves lender empty. Not a determination of who must be served.", cite: "CHECK · PARTIES" });
+        }
+        if (/amount: blank|contract/.test(t) && /blank/.test(t)) {
+          rows.push({ kind: "gap", title: "Contract / open-account amount blank", body: "Amount field empty on face. Hygiene only — not a debt calculation.", cite: "CHECK · AMOUNT" });
+        }
+        if (/address|willow|on face/.test(t)) {
+          rows.push({ kind: "pass", title: "Property address present", body: "Site address on face of sample. Accuracy is the contractor’s job file.", cite: "CHECK · SITE" });
+        }
+        if (/proof log|not started|send method/.test(t)) {
+          rows.push({ kind: "gap", title: "Send method + proof log not started", body: "No proof of send. RIDGE does not mail. Human owns send.", cite: "CHECK · PROOF" });
+        }
+        return rows;
+      }
+    };
+  </script>
+  <script src="../assets/desk.js"></script>
 </body>
 </html>
