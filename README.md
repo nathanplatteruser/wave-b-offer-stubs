@@ -58,7 +58,7 @@ On hub + BIND + every depth route:
 
 ## Rails
 
-- Mailto → `settleupcollections@polsia.app` (subject codes). Magnet / sibling Stripe **HOLD**. Live Stripe is Pilot only.
+- Mailto → `nathanplatter@gmail.com` (subject codes). Magnet / sibling Stripe **HOLD**. Live Stripe is Pilot only.
 - Paper/ink. Phone-friendly. Not neon SaaS.
 - COMMON frozen. No Wave C. No LLC/entity admin.
 - Every page: not legal advice · kill line · human owns send · non-goals / not-SoR-replacement.
