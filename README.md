@@ -2,7 +2,7 @@
 
 Static multi-route GitHub Pages site — offer-stub depth only (not full MRR products).
 
-**Clock fail bar:** ≥6/10 stubs with HTML sample depth (landing + sample + price + kill line + not-legal-advice / not-SoR-replacement).
+**Clock fail bar:** ≥6/10 stubs with HTML sample depth (landing + sample + intro CTA + kill line + not-legal-advice / not-SoR-replacement).
 
 **Demo Playbook bar (this PR):** hub + BIND + every depth-YES route. Seven items on each bar. Presentation-complete for Zoom / booth — not full SaaS.
 
@@ -29,18 +29,18 @@ wave-b-stubs/
 
 ## Depth bar
 
-| # | Code | Path | Price | Meets depth? | Playbook? |
-|---|------|------|-------|--------------|-----------|
-| 1 | BIND | `bind/` | $79–249/mo seat · toothpick $29–79 | **YES** (priority / richest sample) | **YES** |
-| 2 | PREMISES | `premises/` | $19 | **YES** | **YES** |
-| 3 | 8867 | `form-8867/` | $149–297 | **YES** | **YES** |
-| 4 | RIDGE | `ridge/` | $29 | **YES** | **YES** |
-| 5 | RECORD | `record/` | Trial · $25–75/job | **YES** | **YES** |
-| 6 | KENNEL | `kennel/` | $19–49 / annual ask | **YES** | **YES** |
-| 7 | WAKE | `wake/` | $39 | **YES** | **YES** |
-| 8 | BOND | `bond/` | Module/OEM sketch | **YES** | **YES** |
-| 9 | SILL | `sill/` | $12–35/mo ask | **YES** | **YES** |
-| 10 | SERVICE | `service/` | Monthly niche $1–2k + link | **YES** (link-out + local refuse desk) | **YES** |
+| # | Code | Path | Public CTA | Meets depth? | Playbook? |
+|---|------|------|------------|--------------|-----------|
+| 1 | BIND | `bind/` | Book intro / mailto | **YES** (priority / richest sample) | **YES** |
+| 2 | PREMISES | `premises/` | Book intro / mailto | **YES** | **YES** |
+| 3 | 8867 | `form-8867/` | Book intro / mailto | **YES** | **YES** |
+| 4 | RIDGE | `ridge/` | Book intro / mailto | **YES** | **YES** |
+| 5 | RECORD | `record/` | Book intro / mailto | **YES** | **YES** |
+| 6 | KENNEL | `kennel/` | Book intro / mailto | **YES** | **YES** |
+| 7 | WAKE | `wake/` | Book intro / mailto | **YES** | **YES** |
+| 8 | BOND | `bond/` | Book intro / mailto | **YES** | **YES** |
+| 9 | SILL | `sill/` | Book intro / mailto | **YES** | **YES** |
+| 10 | SERVICE | `service/` | Book intro / mailto + magnet link | **YES** (link-out + local refuse desk) | **YES** |
 
 **Score: 10/10 full depth** (fail bar ≥6). Demo Playbook closed on hub + all listed routes.
 
@@ -51,14 +51,14 @@ On hub + BIND + every depth route:
 1. **What it is**
 2. **What it does**
 3. **Compare** — honest vs/alongside category tools; never claim SoR replacement (SoftPro / AppFolio / Clio / PowerSchool / Epic / Drake / Spectora / etc.)
-4. **ROI** — soft framing on every price (labeled assumptions, not kill claims)
+4. **ROI** — soft framing after intro (labeled hour assumptions, not public list prices, not kill claims)
 5. **Demo** — breakable blotter: empty / thin / PDF → **REFUSE**; sample → gap rows. Presentation-complete, not full SaaS. SERVICE keeps the full sample on the live magnet.
-6. **Suite / dual-mode** — module beside SettleUp **or** standalone; Pilot [live $499](https://buy.stripe.com/dRm00j0GG53F8dVfO17Vm03) where relevant
+6. **Suite / dual-mode** — module beside SettleUp **or** standalone; [Book intro](https://calendly.com/nathanplatter) or mailto
 7. **Rails** — not legal advice · kill lines · human owns send
 
 ## Rails
 
-- Mailto → `nathanplatter@gmail.com` (subject codes). Magnet / sibling Stripe **HOLD**. Live Stripe is Pilot only.
+- Public CTA → [Book intro](https://calendly.com/nathanplatter) or mailto `nathanplatter@gmail.com` (subject codes). No public SaaS/magnet list prices until after intro (P0 2026-09-10). Magnet / sibling Stripe **HOLD**. No `buy.stripe.com` CTAs.
 - Paper/ink. Phone-friendly. Not neon SaaS.
 - COMMON frozen. No Wave C. No LLC/entity admin.
 - Every page: not legal advice · kill line · human owns send · non-goals / not-SoR-replacement.
@@ -83,13 +83,14 @@ On hub + BIND + every depth route:
 | SILL | https://nathanplatteruser.github.io/wave-b-offer-stubs/sill/ |
 | SERVICE | https://nathanplatteruser.github.io/wave-b-offer-stubs/service/ |
 | SERVICE magnet (link-out) | https://nathanplatteruser.github.io/service-packs-magnet/ |
-| Pilot (live Stripe only) | https://buy.stripe.com/dRm00j0GG53F8dVfO17Vm03 |
+| Book intro | https://calendly.com/nathanplatter |
+| Email | mailto:nathanplatter@gmail.com |
 
 ## Verify notes
 
 Local: `python3 -m http.server 8765` then open `/`, `/bind/#demo`, break empty / thin / PDF, load sample, upload a `.txt` and a `.pdf` (PDF must REFUSE). Repeat on premises / form-8867 / ridge / record / kennel / wake / bond / sill / service.
 
-Booth walk (BIND first): playbook bar → What / Does / Compare → Demo (sample + one refuse) → Suite (Pilot vs mailto) → price + labeled ROI → kill + not legal advice.
+Booth walk (BIND first): playbook bar → What / Does / Compare → Demo (sample + one refuse) → Suite (Book intro vs mailto) → intro CTA + labeled ROI → kill + not legal advice.
 
 ## BIND URL path
 
