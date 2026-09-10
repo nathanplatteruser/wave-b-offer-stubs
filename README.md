@@ -51,14 +51,14 @@ On hub + BIND + every depth route:
 1. **What it is**
 2. **What it does**
 3. **Compare** — honest vs/alongside category tools; never claim SoR replacement (SoftPro / AppFolio / Clio / PowerSchool / Epic / Drake / Spectora / etc.)
-4. **ROI** — soft framing after intro (labeled hour assumptions, not public list prices, not kill claims)
+4. **Intro** - Book intro / Calendly / mailto only. No stub dollars. No Pilot dollars. No Soft ROI that implies a charge.
 5. **Demo** — breakable blotter: empty / thin / PDF → **REFUSE**; sample → gap rows. Presentation-complete, not full SaaS. SERVICE keeps the full sample on the live magnet.
 6. **Suite / dual-mode** — module beside SettleUp **or** standalone; [Book intro](https://calendly.com/nathanplatter) or mailto
 7. **Rails** — not legal advice · kill lines · human owns send
 
 ## Rails
 
-- Public CTA → [Book intro](https://calendly.com/nathanplatter) or mailto `nathanplatter@gmail.com` (subject codes). No public SaaS/magnet list prices until after intro (P0 2026-09-10). Magnet / sibling Stripe **HOLD**. No `buy.stripe.com` CTAs.
+- Public CTA → [Book intro](https://calendly.com/nathanplatter) or mailto `nathanplatter@gmail.com` (subject codes). No stub dollars. No Pilot dollars. No Soft ROI that implies a charge. Magnet / sibling Stripe **HOLD**. No `buy.stripe.com` CTAs.
 - Paper/ink. Phone-friendly. Not neon SaaS.
 - COMMON frozen. No Wave C. No LLC/entity admin.
 - Every page: not legal advice · kill line · human owns send · non-goals / not-SoR-replacement.
@@ -90,7 +90,7 @@ On hub + BIND + every depth route:
 
 Local: `python3 -m http.server 8765` then open `/`, `/bind/#demo`, break empty / thin / PDF, load sample, upload a `.txt` and a `.pdf` (PDF must REFUSE). Repeat on premises / form-8867 / ridge / record / kennel / wake / bond / sill / service.
 
-Booth walk (BIND first): playbook bar → What / Does / Compare → Demo (sample + one refuse) → Suite (Book intro vs mailto) → intro CTA + labeled ROI → kill + not legal advice.
+Booth walk (BIND first): playbook bar → What / Does / Compare → Demo (sample + one refuse) → Suite (Book intro vs mailto) → intro CTA → kill + not legal advice.
 
 ## BIND URL path
 
